@@ -28,10 +28,14 @@ def replace_vowels(text):
 
 # Exercise 5
 def count_words(text):
-    # Write your code here
-    pass
-
+    words = text.split()
+    return len(words)
+    
 # Exercise 6
 def find_longest_word(text):
-    # Write your code here
-    pass
+    words = text.split()
+    longest
+    for word in words:
+        if len(word) > len(longest):
+            longest = word
+    return longest
