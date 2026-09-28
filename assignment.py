@@ -15,9 +15,7 @@ def count_vowels(text):
     for char in text:
         if char in vowels:
             r += 1
-    else:
-        r = 0
-        return r
+    return r
         
 # Exercise 4
 def replace_vowels(text):
