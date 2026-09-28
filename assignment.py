@@ -10,9 +10,15 @@ def remove_spaces(text):
     
 # Exercise 3
 def count_vowels(text):
-    # Write your code here
-    pass
-
+    r = 0
+    vowels = ['a', 'e', 'i', 'o', 'u']
+    for char in text:
+        if char in vowels:
+            r += 1
+    else:
+        r = 0
+        return r
+        
 # Exercise 4
 def replace_vowels(text):
     # Write your code here
