@@ -18,7 +18,10 @@ def count_vowels(text):
         
 # Exercise 4
 def replace_vowels(text):
-    return text.replace("aeiouAEIOU", "*")
+    for char in text:
+        if char in "aeiouAEIOU"
+            text = text.replace(char, "*")
+    return text
     
 # Exercise 5
 def count_words(text):
